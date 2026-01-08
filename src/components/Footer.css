@@ -1,0 +1,45 @@
+footer {
+  width: 100%;
+  padding: 25px 20px;
+  background-color: #111827; /* mismo color que el navbar */
+  color: #e5e7eb;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Texto del copyright */
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #9ca3af;
+}
+
+/* Contenedor de enlaces sociales */
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Enlaces */
+.social-links a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #60a5fa; /* azul claro */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .social-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

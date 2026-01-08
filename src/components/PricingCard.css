@@ -1,0 +1,46 @@
+.pricing-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* Título del plan */
+.pricing-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+/* Precio */
+.pricing-card p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+/* Badge de recomendado */
+.pricing-card span {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* Si quieres destacar la tarjeta recomendada */
+.pricing-card.recommended {
+  border-color: #2563eb;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.25);
+}

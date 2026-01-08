@@ -1,0 +1,45 @@
+.testimonial-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* Avatar */
+.testimonial-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #2563eb;
+}
+
+/* Nombre */
+.testimonial-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+/* Rating */
+.testimonial-card p:first-of-type {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #f59e0b; /* amarillo tipo estrellas */
+  margin-bottom: 10px;
+}
+
+/* Comentario */
+.testimonial-card p:last-of-type {
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.5;
+}

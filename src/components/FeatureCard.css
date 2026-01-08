@@ -1,0 +1,30 @@
+.feature-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #2563eb; /* azul elegante */
+}
+
+.feature-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #4b5563;
+}
