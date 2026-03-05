@@ -1,16 +1,75 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 landing-page-react-hector
 
-Currently, two official plugins are available:
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🌐 [landing-page-react-hector.vercel.app](https://landing-page-react-hector.vercel.app)**
 
-## React Compiler
+*Portfolio personal — React + TypeScript + Vite · Deployed on Vercel.*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📝 Descripción
+
+Landing page de portfolio personal construida con **React + TypeScript + Vite**. Presenta proyectos, stack tecnológico y experiencia profesional. Desplegada en producción en Vercel con CI/CD automático.
+
+---
+
+## 🛠️ Tech Stack
+
+| Área | Tecnología |
+|:---|:---|
+| Framework | React 18 |
+| Lenguaje | TypeScript + JavaScript |
+| Build tool | Vite |
+| Estilos | CSS3 |
+| Deploy | Vercel (CD automático) |
+| Linting | ESLint |
+
+---
+
+## 🚀 Instalación y Ejecución
+```bash
+git clone https://github.com/HEO-80/landing-page-react-hector.git
+cd landing-page-react-hector
+npm install
+npm run dev
+```
+
+Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
+
+**Build de producción:**
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+## 🌐 Demo en vivo
+
+👉 **[landing-page-react-hector.vercel.app](https://landing-page-react-hector.vercel.app)**
+
+Desplegado en Vercel con CD automático — cada push a `main` actualiza la producción.
+
+---
+
+## 🧑‍💻 Autor
+
+**Héctor Oviedo** — Fullstack Developer & DeFi Researcher
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hectorob/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HEO-80)
+
+---
+
+<div align="center">
+  <sub>Built with ⚡ Vite · Deployed on Vercel · <strong>Héctor Oviedo</strong> · Zaragoza, España</sub>
+</div>
